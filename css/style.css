@@ -1,0 +1,50 @@
+@font-face {
+   font-family: "Satisfy";
+   src: url(../fonts/Satisfy-Regular.ttf);
+}
+
+body {
+	/* Início do gradiente em três linhas proposto pela Juliana*/
+    /* Cores - entre outras coisas - alteradas por mim*/
+    background-image: linear-gradient(to bottom, #B7E6D9, #D5E1CF, #FEDAC1, #FF9AEF);
+    background-color: #FF9AEF;
+    background-repeat: no-repeat;
+    /* Fim do gradiente*/
+    font-family: "Satisfy";
+    text-align: justify;
+    margin: 0px 300px;
+    padding: 100px; 
+}
+	/* Poderia ter mudado as cores propostas. o que não vi necessidade, de forma psicológica, são compatíveis com o texto inserido */
+
+h1 {
+	text-align: center;
+	font-weight: 0;
+	font-size: 50px;
+}
+
+h2 {
+	text-align: right;
+	font-weight: 30;
+	font-size: 20px;
+	color: blue;
+}
+
+p {
+	font-size: 25px;
+}
+
+footer {
+	text-align: center;
+}
+a:link, a:visited {
+	text-decoration: none;
+	}
+a:hover {
+	text-decoration: none; 
+	color: #FF9AEF;
+	}
+a:active {
+	text-decoration: none;
+	}
+
